@@ -1,0 +1,126 @@
+body {
+  background-color: aqua;
+  line-height: 1.6;
+  margin: 20px;
+  text-align: justify;
+  margin-top: 50px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.majestic {
+  font-family: vivaldi;
+  font-size: 30px;
+  color: #fff;
+}
+
+h1 {
+  font-family: stencil;
+  text-shadow: 5px 10px 8px black;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  font-family: Sitka Heading Semibold;
+  color: black;
+  margin-bottom: 20px;
+  color: black;
+}
+
+p {
+  text-indent: 50px;
+  font-family: Sitka Subheading;
+  font-size: 17px;
+  color: black;
+  margin-bottom: 25px;
+  margin: 30px;
+  
+}
+
+.container {
+  padding: 20px;
+}
+
+.slider-border {
+  position: relative;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16/9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 10px 30px 7.5px hsla(0, 0%, 0%, 0.25);
+  border-radius: 5px;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black ;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 10px;
+  position: absolute;
+  bottom: 12.5px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+slider-nav {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: .75;
+  transition: opacity ease 250ms;
+}
+
+#slideL {
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+#slideR {
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+#about-the-cup {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#my-experience {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
