@@ -17,7 +17,6 @@ body {
   width: 350px;
   height: 310px;
   border-radius: 50px;
-  background-color: rgba(255, 255, 255, 0.6); 
   backdrop-filter: blur(7px); 
   box-shadow: 0 20px 20px 20px palevioletred;
   display: flex;
