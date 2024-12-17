@@ -32,8 +32,7 @@ body {
 }
 
 .log:hover {
-  background-color: rgba(255, 255, 255, 0.8); 
-  border: 2px solid crimson;
+  border: 2px solid cyan;
   box-shadow: 0 20px 30px 20px rgba(183, 75, 75, 0.5);
 }
 
