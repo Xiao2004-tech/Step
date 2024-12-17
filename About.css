@@ -7,7 +7,7 @@
 .banner {
     width: 100%;
     height: 100vh;
-    background-color: aqua;
+    background-image: url(japan.jpeg);
     background-size: cover;
     background-position: center;
 }
